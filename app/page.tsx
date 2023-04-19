@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className="flex justify-center h-screen pt-4">
-      <div className="bg-gray-200 p-4 border-1 border-transparent rounded-xl flex flex-col sm:justify-center items-center h-5/6 w-fit">
+      <div className="bg-gray-200 m-4 p-4 border-1 border-transparent rounded-xl flex flex-col sm:justify-center items-center h-5/6 w-fit">
         <div className="relative sm:w-1/2 sm:h-1/2 md:w-5/12 h-1/3 w-3/4 border border-transparent rounded-xl">
           <Image
             className="overflow-hidden rounded-xl border"
